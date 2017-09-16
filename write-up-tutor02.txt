@@ -1,0 +1,21 @@
+Tutorial 2 :
+
+Pada tutorial ini saya mempelajari penggunaan pathvariable dan requestparameter untuk mendapatkan input dari user serta mempelajari fungsi apa yang di return oleh controller (nama file html), dan fungsi dari value yang ada pada @RequestMapping.
+
+
+
+Latihan Project Hello World
+1. tidak terjadi compile error, tapi terjadi whitelabel error karena alamat untuk mengakses fungsi tsb bukan lagi '/hello' tapi menjadi '/hello123'
+2. tidak terjadi error apapun
+3. ya
+---> String yang di return menandakan nama file html yang ditampilkan.
+
+Request Parameter:
+1. Selamat datang chanek !
+2. terjadi whitelabel error lagi, karena nilai dari 'name' belum didefinisikan
+3. Selamat datang dunia ! --karena nilai name tidak didefinisikan, diambil nilai defaultnya yakni 'dunia'
+4. 'Sapaan untuk user' tidak pernah muncul karena isi teksnya digantikan dengan nilai dari 'th:text'
+
+Path Variable:
+1. Selamat datang dengklek !
+2. Selamat datang chanek !
